@@ -1,0 +1,12 @@
+{
+  "name": "maojiaResume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --files '*.html, *.css, *.js'"
+  }
+}

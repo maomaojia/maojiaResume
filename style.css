@@ -5,7 +5,7 @@ body {
   background: white;
 }
 
-ul, li , p {
+ul, li  {
   padding: 0;
   margin: 0;
   list-style: none
@@ -52,6 +52,7 @@ h6{
  border: 4px dashed #FCFFBB;
  border-radius:2px;
 }
+
 .summary h1 {
   color: #ffffff;
 }
@@ -107,6 +108,22 @@ h6{
   background-color: rgba(131, 162, 242, 0.4);
 }
 
+.card-cont{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+.card-cont-half{
+      flex: 1;
+}
+.card-footer{
+    border-top: 2px dotted #d8d8d8;
+    margin: 0px 20px 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
 
 .exp-list-cont {
   box-shadow: 0 2px 2px 0 rgba(51, 51, 51 ,.1);

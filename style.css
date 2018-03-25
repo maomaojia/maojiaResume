@@ -5,13 +5,13 @@ body {
   background: white;
 }
 
-ul, li  {
+ul, li {
   padding: 0;
   margin: 0;
   list-style: none
 }
 
-dd{
+dd {
   margin: 0;
   padding: 20px;
 }
@@ -25,14 +25,15 @@ dd{
   font-size: 16px;
 }
 
-h1{
+h1 {
   font-size: 34px;
 }
 
-h6{
+h6 {
   font-weight: : bold;
   font-size: 16px;
 }
+
 .resumeBody {
   font-size: 14px;
   /* background: #F2DDE7; */
@@ -48,9 +49,9 @@ h6{
   color: #ffffff;
 }
 
-.headerImg{
- border: 4px dashed #FCFFBB;
- border-radius:2px;
+.headerImg {
+  border: 4px dashed #FCFFBB;
+  border-radius: 2px;
 }
 
 .summary h1 {
@@ -68,12 +69,13 @@ h6{
   background-color: white;
   border-radius: 4px;
   shadow: 0 0 0 -10px #D8D8D8;
-  box-shadow: 0 5px 15px 0 rgba(51, 51, 51 ,.1);
+  box-shadow: 0 5px 15px 0 rgba(51, 51, 51, .1);
   transition: 0.15s;
 }
 
-.card-con:hover{
-  box-shadow: 0 15px 30px 0 rgba(51, 51, 51 ,.15);
+.card-con:hover {
+  box-shadow: 0 15px 30px 0 rgba(51, 51, 51, .15);
+  transform: scale(1.05);
 }
 
 .card-title {
@@ -88,6 +90,7 @@ h6{
 .card-title-01 {
   background-color: rgba(246, 239, 130, 0.4);
 }
+
 .card-title-02 {
   background-color: rgba(251, 217, 130, 0.4);
 }
@@ -95,40 +98,46 @@ h6{
 .card-title-1 {
   background-color: rgba(131, 217, 130, 0.4);
 }
-.card-title-2{
+
+.card-title-2 {
   background-color: rgba(131, 217, 192, 0.4);
 }
+
 .card-title-3 {
   background-color: rgba(131, 242, 242, 0.4);
 }
+
 .card-title-4 {
   background-color: rgba(131, 217, 242, 0.4);
 }
+
 .card-title-5 {
   background-color: rgba(131, 162, 242, 0.4);
 }
 
-.card-cont{
-   display: flex;
-   align-items: flex-start;
-   justify-content: space-around;
+.card-cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
-.card-cont-half{
-      flex: 1;
-}
-.card-footer{
-    border-top: 2px dotted #d8d8d8;
-    margin: 0px 20px 20px;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
 
+.card-cont-half {
+  flex: 1;
+}
+
+.card-footer {
+  border-top: 2px dotted #d8d8d8;
+  margin: 0px 20px 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .exp-list-cont {
-  box-shadow: 0 2px 2px 0 rgba(51, 51, 51 ,.1);
+  box-shadow: 0 2px 2px 0 rgba(51, 51, 51, .1);
   padding: 20px;
 }
+
 .exp-title {
   height: 80px;
   display: flex;
@@ -137,10 +146,12 @@ h6{
   padding: 10px 20px 0;
   font-size: 24px;
 }
-.exp-title-1{
+
+.exp-title-1 {
   background-color: rgba(197, 242, 131, 0.4);
 }
-.exp-title-2{
+
+.exp-title-2 {
   background-color: rgba(147, 242, 131, 0.4);
 }
 
@@ -153,29 +164,33 @@ h6{
 .work-experience {
   border-radius: 4px;
   shadow: 0 0 0 -10px #D8D8D8;
-  box-shadow: 0 5px 15px 0 rgba(51, 51, 51 ,.1);
+  box-shadow: 0 5px 15px 0 rgba(51, 51, 51, .1);
   padding: 20px;
   transition: 0.15s;
+  margin-bottom: 20px;
 }
 
-.work-experience:hover{
-  box-shadow: 0 15px 30px 0 rgba(51, 51, 51 ,.15);
+.work-experience:hover {
+  box-shadow: 0 15px 30px 0 rgba(51, 51, 51, .15);
+  transform: scale(1.05);
 }
 
-.work-exp-comp{
+.work-exp-comp {
   font: Mircosoft Yahei 28px #000000;
 }
 
 .project-experience {
   border-radius: 4px;
   shadow: 0 0 0 -10px #D8D8D8;
-  box-shadow: 0 5px 15px 0 rgba(51, 51, 51 ,.1);
+  box-shadow: 0 5px 15px 0 rgba(51, 51, 51, .1);
   padding: 20px;
   transition: 0.15s;
+  margin-bottom: 20px;
 }
 
-.project-experience:hover{
-  box-shadow: 0 15px 30px 0 rgba(51, 51, 51 ,.15);
+.project-experience:hover {
+  box-shadow: 0 15px 30px 0 rgba(51, 51, 51, .15);
+  transform: scale(1.05);
 }
 
 .row1, .row2 {
@@ -187,36 +202,30 @@ h6{
   flex: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .shadow-1 {
-  box-shadow: 0 5px 15px 0 rgba($c333,.2);
+  box-shadow: 0 5px 15px 0 rgba($c333, .2);
 }
 
 .shadow-2 {
-  box-shadow: 0 15px 30px 0 rgba($c333,.15);
+  box-shadow: 0 15px 30px 0 rgba($c333, .15);
 }
 
 .shadow-3 {
-  box-shadow: 0 1px 5px 0 rgba($c333,.2);
+  box-shadow: 0 1px 5px 0 rgba($c333, .2);
 }
 
 .shadow-4 {
-  box-shadow: 0 2px 2px 0 rgba($c333,.1);
+  box-shadow: 0 2px 2px 0 rgba($c333, .1);
 }
 
 .mr10 {
   margin-right: 10px;
 }
+
 .mb10 {
   margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
 }

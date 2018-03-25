@@ -2,7 +2,7 @@
 font-size: 14px; font-weight: normal; } */
 
 body {
-  background: white;
+  background: #ffffff;
 }
 
 ul, li {
@@ -18,15 +18,20 @@ dd {
 
 .base-cont {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .base-info-cont {
   font-size: 16px;
+    color:  ;
 }
 
+a{
+  text-decoration: none;
+  color: #f0fcf3;
+}
 h1 {
-  font-size: 34px;
+  font-size: 40px;
 }
 
 h6 {
@@ -39,23 +44,29 @@ h6 {
   /* background: #F2DDE7; */
   margin: 0 auto;
   width: 800px;
-  border: 1px dotted white;
+  /* border: 1px dotted white; */
 }
 
 .summary {
   padding: 40px 20px 20px;
-  background-color: #A0CE6A;
+  background-color: #317d42;
   font: "Microsoft YaHei" 14px;
   color: #ffffff;
 }
 
 .headerImg {
-  border: 4px dashed #FCFFBB;
+  /* border: 4px dashed #FCFFBB; */
   border-radius: 2px;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .summary h1 {
   color: #ffffff;
+  font-family: fantasy;
+  font-weight: normal;
 }
 
 .top-info-con {
@@ -88,31 +99,31 @@ h6 {
 }
 
 .card-title-01 {
-  background-color: rgba(246, 239, 130, 0.4);
+  background-color: #eafcef;
 }
 
 .card-title-02 {
-  background-color: rgba(251, 217, 130, 0.4);
+  background-color: #eafcef;
 }
 
 .card-title-1 {
-  background-color: rgba(131, 217, 130, 0.4);
+  background-color: #eafcef;
 }
 
 .card-title-2 {
-  background-color: rgba(131, 217, 192, 0.4);
+  background-color: #eafcef;
 }
 
 .card-title-3 {
-  background-color: rgba(131, 242, 242, 0.4);
+  background-color: #eafcef;
 }
 
 .card-title-4 {
-  background-color: rgba(131, 217, 242, 0.4);
+  background-color: #eafcef;
 }
 
 .card-title-5 {
-  background-color: rgba(131, 162, 242, 0.4);
+  background-color: #eafcef;
 }
 
 .card-cont {
@@ -148,11 +159,11 @@ h6 {
 }
 
 .exp-title-1 {
-  background-color: rgba(197, 242, 131, 0.4);
+  background-color: #eafcef;
 }
 
 .exp-title-2 {
-  background-color: rgba(147, 242, 131, 0.4);
+  background-color: #eafcef;
 }
 
 .exp-list {
@@ -179,6 +190,8 @@ h6 {
   font: Mircosoft Yahei 28px #000000;
 }
 
+
+
 .project-experience {
   border-radius: 4px;
   shadow: 0 0 0 -10px #D8D8D8;
@@ -191,6 +204,16 @@ h6 {
 .project-experience:hover {
   box-shadow: 0 15px 30px 0 rgba(51, 51, 51, .15);
   transform: scale(1.05);
+  background-color: #68ba7a;
+  color: #ffffff !important;
+}
+
+.project-experience:hover >p{
+  color: #ffffff !important;
+}
+
+.project-experience:hover >p >span{
+  color: #ffffff !important;
 }
 
 .row1, .row2 {
@@ -218,6 +241,12 @@ h6 {
   box-shadow: 0 2px 2px 0 rgba($c333, .1);
 }
 
+.mt0{
+  margin-top: 0px;
+}
+.mt30{
+  margin-top: 30px;
+}
 .mr10 {
   margin-right: 10px;
 }
@@ -228,4 +257,51 @@ h6 {
 
 .mb20 {
   margin-bottom: 20px;
+}
+
+.cgray1 {
+  color: #545454;
+}
+.cgray2{
+  color: #5d5d5d;
+}
+.cgray3{
+  color: #787878;
+}
+.cgray4{
+  color: #989898;
+}
+.cgray5{
+  color: #acacac;
+}
+.cgray6{
+  color: #787878;
+}
+
+.f12 {
+  font-size: 12;
+}
+.f13 {
+  font-size: 13;
+}
+.f14 {
+  font-size: 14;
+}
+.f15 {
+  font-size: 15;
+}
+.f16 {
+  font-size: 16;
+}
+.f17 {
+  font-size: 17;
+}
+.f18 {
+  font-size: 18;
+}
+.f19 {
+  font-size: 19;
+}
+.f20 {
+  font-size: 20;
 }
